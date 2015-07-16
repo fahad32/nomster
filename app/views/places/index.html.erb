@@ -3,7 +3,6 @@
     <h1><%= link_to place.name, place_path(place), method: :get %></h1>
     <i><%= place.address %></i><br /><br />
     <p><%= place.description %></p><br />
-    <p><%= link_to "Delete", place_path(place), method: :delete, confirm: "Are you sure?" %>
 
     <% if place.user.present? %>
     	<small><%= place.user.email %></small>
