@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem "factory_girl_rails", "~> 4.0"
+
 gem 'carrierwave'
 
 gem "figaro", ">= 1.0.0"
